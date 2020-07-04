@@ -10,3 +10,19 @@
 main plateform
 * install of create-react-app
   * with typescript config
+
+<hr/>
+
+## v0.0.1
+#### add FlatFertileButton component 
+flat button with capacity of showing html children nodes
+* select color of button
+* flat design
+* click action management
+   * parent by props
+   * shadow css annim
+#### add FlatAutoButton auto config implementation of FlatFertileButton component 
+* auto implem for :
+    * ok 
+    * cancel 
+    * again

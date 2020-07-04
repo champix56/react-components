@@ -1,0 +1,26 @@
+.FlatFertileButton {
+    display: inline-block;
+    user-select: none;
+    border-radius: 7px;
+    min-height: 21px;
+    min-width: 32px;
+    padding: 5px;
+    margin:1px 5px;
+    box-shadow:1px 2px 2px lightgrey;
+}
+.FlatFertileButton:hover {
+    margin:0px 5px;
+    box-shadow:2px 4px 3px lightgrey;
+}
+.clicked{
+    margin:0 5px !important;
+    box-shadow:-2px -1px 3px lightgrey !important;
+}
+
+.content>*{ vertical-align: middle;}
+    .content{
+    text-align: center;
+    padding:5px 8px;
+    border-radius: 9px;
+
+}
