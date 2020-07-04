@@ -41,4 +41,18 @@ show pourcent of a value with circular disk
   * max value,
   * size,
   * display type
-  
+
+  <hr/>
+
+## v0.0.2b
+
+### add GraphCloudPoint component 
+
+show cloud of connected points of values
+
+* can show grid
+* Only positive value
+* can customize
+  * max value,
+  * size,
+  * display type
