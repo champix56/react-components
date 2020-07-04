@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './App.module.scss';
 import FlatFertileButton, { FlatAutoButton } from '../FlatFertileButton/FlatFertileButton';
+import GraphCircular from '../GraphCircular/GraphCircular';
 const App: React.FC = () => (
   <div className={styles.App} data-testid="App">
     {/* flat button */}
@@ -16,6 +17,11 @@ const App: React.FC = () => (
     <FlatAutoButton type="again" onClick={e => { }} />
     <FlatAutoButton type="ok" onClick={e => { }} />
     <FlatAutoButton type="cancel" onClick={e => { }} />
+    <hr />
+    <GraphCircular value={15}/>
+    <GraphCircular value={25}/>
+    <GraphCircular value={55}/>
+    <GraphCircular value={85}/>
     <hr />
   </div>
 );
