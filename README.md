@@ -26,3 +26,19 @@ flat button with capacity of showing html children nodes
     * ok 
     * cancel 
     * again
+
+<hr/>
+
+## v0.0.2a
+
+### add GraphCircular component 
+
+show pourcent of a value with circular disk
+
+* can show grid
+* auto color
+* can customize
+  * max value,
+  * size,
+  * display type
+  
