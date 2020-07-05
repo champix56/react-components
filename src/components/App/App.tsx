@@ -3,6 +3,7 @@ import styles from './App.module.scss';
 import FlatFertileButton, { FlatAutoButton } from '../FlatFertileButton/FlatFertileButton';
 import GraphCircular from '../GraphCircular/GraphCircular';
 import GraphCloudPoint from '../GraphCloudPoint/GraphCloudPoint';
+import GraphHistogram from '../GraphHistogram/GraphHistogram';
 const App: React.FC = () => (
   <div className={styles.App} data-testid="App">
     {/* flat button */}
@@ -26,6 +27,9 @@ const App: React.FC = () => (
     <hr />
     <GraphCloudPoint/>
     <GraphCloudPoint values={[ 20, 80, 19, 63, 80, 99, 56, 8, 49, 19, 21, 69, 56, 12, 23, 25, 10, 80, 25, 56, 2]} max="150"/>
+    <hr />
+    <GraphHistogram/>
+    <GraphHistogram values={[ 20, 80, 19, 63, 80, 99, 56, 8, 49, 19, 21, 69, 56, 12, 23, 25, 10, 80, 25, 56, 2]} max="150"/>
     <hr />
   </div>
 );

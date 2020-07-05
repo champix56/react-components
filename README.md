@@ -56,3 +56,16 @@ show cloud of connected points of values
   * max value,
   * size,
   * display type
+
+## v0.0.2b
+
+### add GraphHistogram component
+
+show Histogram of values
+
+* can show grid
+* Only positive values
+* can customize
+  * max value,
+  * size,
+  * display type
