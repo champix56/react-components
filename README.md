@@ -76,3 +76,18 @@ show Histogram of values
   * max value,
   * size,
   * display type
+
+## v0.0.3a
+
+### Add Mouse events on GraphCircular
+
+Now can show Histogram of values whith
+
+* show grid
+* Only positive values
+* can customize
+  * max value,
+  * size,
+  * display type
+  * **can trigger click event** *optionnal
+  * **can trigger MouseOver event** *optionnal
